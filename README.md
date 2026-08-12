@@ -1,4 +1,4 @@
-# WW-Ares 个人 Sileo 源
+# WW-Ares
 
 这是个人使用的 Sileo 软件源，用于备份自己需要保存的其他源 deb 包，以及自己修改或制作的 deb 包。
 
