@@ -8,12 +8,6 @@
 https://ww-ares.github.io/repo/
 ```
 
-当前包含：
-
-- Axon 简体中文包（roothide）
-- BlurryBadges 简体中文包（roothide）
-- CocoaTop 简体中文包（roothide）
-
 ## 维护方式
 
 - 所有可安装的 deb 包放在 `debs/` 目录，并使用 ASCII 文件名，避免 URL 编码兼容问题。
