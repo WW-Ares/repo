@@ -1,0 +1,12 @@
+Origin: WW-Ares
+Label: WW-Ares Personal Sileo Source
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: iphoneos-arm64e
+Components: main
+Description: Personal deb backup and package repository
+Date: Wed, 12 Aug 2026 10:33:59 GMT
+SHA256:
+ aefec78758c35b78fcce18b0c36cc11e2867e81967be66497d4049c60c9cdc34 1608 Packages
+ b196bd1aef065c674f76b428c6a28cfd2455a38f27101b23f2a9e2f1fb3bfaeb 768 Packages.gz
