@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: iphoneos-arm64e
 Components: main
 Description: Personal deb backup and package repository
-Date: Wed, 12 Aug 2026 10:33:59 GMT
+Date: Wed, 12 Aug 2026 11:03:05 GMT
 SHA256:
- aefec78758c35b78fcce18b0c36cc11e2867e81967be66497d4049c60c9cdc34 1608 Packages
- b196bd1aef065c674f76b428c6a28cfd2455a38f27101b23f2a9e2f1fb3bfaeb 768 Packages.gz
+ 059455426f0551c8499a2300368bd5c2b62b67c0aa8c59794ca410091f870656 1321 Packages
+ ab0773c69ca818c5ac2834b5f7cd27358723ceadbe09ebb7a94516ab98b97c8b 651 Packages.gz
