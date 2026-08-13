@@ -37,3 +37,16 @@ Installed-Size: 240
 Filename: debs/cocoatop-cn-roothide_0.0.1-4_iphoneos-arm64e.deb
 Size: 19384
 SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
+
+Package: com.ww-ares.zhforsnapper3
+Name: snapper3????(WW-Ares)
+Version: 1.0.4
+Description: ??snapper3??,???????????
+Maintainer: WW-Ares
+Author: WW-Ares
+Section: ????
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Filename: debs/snapper3-cn-roothide_1.0.4_iphoneos-arm64e.deb
+Size: 34292
+SHA256: 2ec9dc12ab74f485de572bcf5bafbad6953089e568dd2b949f816d7a5e83a456

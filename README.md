@@ -13,6 +13,7 @@ https://ww-ares.github.io/repo/
 - Axon 简体中文包（roothide）
 - BlurryBadges 简体中文包（roothide）
 - CocoaTop 简体中文包（roothide）
+- snapper3 美化插件（roothide）
 
 ## 维护方式
 
