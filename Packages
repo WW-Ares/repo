@@ -64,7 +64,6 @@ Filename: debs/cn.dao.relaxin.cocoatop_2.3.3_iphoneos-arm64e.deb
 Size: 243858
 SHA256: 52ef729253cbbe211082f30f55d7516991a569c26de7ca2d975007197f9fc0ad
 
-
 Package: com.dao.choicy
 Name: Choicy(RootHide)
 Version: 1.5.4-1
@@ -79,7 +78,6 @@ Filename: debs/com.dao.choicy_1.5.4-1_iphoneos-arm64e.deb
 Size: 165468
 SHA256: 7ad223591ec738fff88ac68b216a3489d48a9992d8ccdee394b0666e3c460f61
 
-
 Package: com.dao.pulloverx
 Name: PullOverX(RootHide)
 Version: 1.5
@@ -92,7 +90,6 @@ Architecture: iphoneos-arm64e
 Filename: debs/com.dao.pulloverx_1.5_iphoneos-arm64e.deb
 Size: 263180
 SHA256: 3b2e6b88e9e38f388e482330bf8488753acc5ee75ebf75a835d452e5802e81da
-
 
 Package: com.yourepo.axs.snapper
 Name: Snapper3 Expand
@@ -107,7 +104,6 @@ Filename: debs/com.yourepo.axs.snapper_5.2.0-130_iphoneos-arm64e.deb
 Size: 114986
 SHA256: 01efeba4ab956ef994a428f9ded39c86c80609c8e391d3c7bd7d0aa3a3983e54
 
-
 Package: me.nepeta.axon
 Name: Axon
 Version: 1.6.9
@@ -121,4 +117,3 @@ Installed-Size: 1524
 Filename: debs/me.nepeta.axon_1.6.9_iphoneos-arm64e.deb
 Size: 828176
 SHA256: 8ac49fcf2510736e483700be69afaacca7ee65269295c7128441701164df9943
-
