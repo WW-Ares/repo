@@ -1,21 +1,5 @@
 Package: com.hk.axon.cn.roothide
 Name: Axon 简体中文包 (roothide)
-Version: 1.6.9-4
-Architecture: iphoneos-arm64e
-Maintainer: WW-Ares
-Author: WW-Ares
-Depends: mobilesubstrate, me.nepeta.axon (= 1.6.9)
-Conflicts: com.hk.axon.cn.rl
-Replaces: com.hk.axon.cn.rl
-Provides: com.hk.axon.cn
-Section: roothide汉化补丁
-Description: 适用于RY7YY更新维护的Axon插件进行汉化
-Filename: debs/axon-cn-roothide_1.6.9-4_iphoneos-arm64e.deb
-Size: 8812
-SHA256: e1b58c81114dd75e5f5ce8aac776c11db11457875f5e20650329991aa156cb5b
-
-Package: com.hk.axon.cn.roothide
-Name: Axon 简体中文包 (roothide)
 Version: 1.7.0-1
 Architecture: iphoneos-arm64e
 Maintainer: WW-Ares
@@ -43,21 +27,6 @@ Filename: debs/blurrybadges-cn-roothide_2.1.3-4_iphoneos-arm64e.deb
 Size: 5248
 SHA256: 5c26130cf9ddc991ff09ef1c616cd61ba2d052d9479b63d1a836e65d6becb442
 
-Package: cn.dao.relaxin.cocoatop
-Name: CocoaTop64 中文版(Relaxin)
-Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
-Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
-Maintainer: SXX, Domo
-Author: Domo, SXX
-Section: 嗨-系统
-Architecture: iphoneos-arm64e
-Version: 2.3.3
-Installed-Size: 936
-Filename: debs/cn.dao.relaxin.cocoatop_2.3.3_iphoneos-arm64e.deb
-Size: 243858
-SHA256: 52ef729253cbbe211082f30f55d7516991a569c26de7ca2d975007197f9fc0ad
-
 Package: cn.llld.cocoatop
 Name: CocoaTop64 简体中文包 (roothide)
 Version: 0.0.1-4
@@ -71,100 +40,6 @@ Description: 增加Relaxin版本的汉化适配
 Filename: debs/cocoatop-cn-roothide_0.0.1-4_iphoneos-arm64e.deb
 Size: 19384
 SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
-
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.4-1
-Installed-Size: 1104
-Filename: debs/com.dao.choicy_1.5.4-1_iphoneos-arm64e.deb
-Size: 165468
-SHA256: 7ad223591ec738fff88ac68b216a3489d48a9992d8ccdee394b0666e3c460f61
-
-Package: com.dao.pulloverx
-Name: PullOverX(RootHide)
-Version: 1.5
-Description: 悬浮多任务窗口工具，源自 mlgm 的 PullOver X，提升性能和稳定性。
-Section: 嗨-工具
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
-Replaces: com.mlgm.pulloverx.preferences
-Architecture: iphoneos-arm64e
-Author: mlgm
-Maintainer: daodao
-Filename: debs/com.dao.pulloverx_1.5_iphoneos-arm64e.deb
-Size: 263180
-SHA256: 3b2e6b88e9e38f388e482330bf8488753acc5ee75ebf75a835d452e5802e81da
-
-Package: com.mlgm.kayoko
-Name: Kayoko
-Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
-Maintainer: mlgm
-Author: mlgm
-Section: Tweaks
-Icon: https://mlgm66.github.io/icon/kayoko.png
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Architecture: iphoneos-arm64e
-Version: 4.7.2
-Installed-Size: 3172
-Filename: debs/com.mlgm.kayoko_4.7.2_iphoneos-arm64e.deb
-Size: 671914
-SHA256: 1054bde43052162064488b492bf73c9807ab42aba60d90011e92e3bdc89e4805
-
-Package: com.yourepo.axs.snapper
-Architecture: iphoneos-arm64e
-Name: Snapper3 Expand
-Version: 5.2.0-130
-Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译等。
-Author: Axs <qiaozhani000@163.com>
-Section: System (Axs-Tweaks)
-Depends: mobilesubstrate
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Maintainer: Axs <qiaozhani000@163.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.yourepo.axs.snapper_5.2.0-130_iphoneos-arm64e.deb
-Size: 114986
-SHA256: 01efeba4ab956ef994a428f9ded39c86c80609c8e391d3c7bd7d0aa3a3983e54
-
-Package: me.nepeta.axon
-Name: Axon
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Description: Show notifications beautifully with the lock screen
-Maintainer: RY7YY
-Author: Nepeta & RY7YY
-Section: Tweaks
-icon: https://j.top4top.io/p_38647xb430.png
-Architecture: iphoneos-arm64e
-Version: 1.6.9
-Installed-Size: 1524
-Filename: debs/me.nepeta.axon_1.6.9_iphoneos-arm64e.deb
-Size: 828176
-SHA256: 8ac49fcf2510736e483700be69afaacca7ee65269295c7128441701164df9943
-
-Package: me.nepeta.axon
-Name: Axon
-Depends: mobilesubstrate, firmware (>= 16.0), oldabi
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Description: Show notifications beautifully with the lock screen
-Maintainer: RY7YY
-Author: Nepeta & RY7YY
-Section: Tweaks
-icon: https://j.top4top.io/p_38647xb430.png
-Architecture: iphoneos-arm64e
-Version: 1.7.0
-Installed-Size: 1540
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/me.nepeta.axon_1.7.0_iphoneos-arm64e.deb
-Size: 897252
-SHA256: d8d56d08f5acc51d208cbbb049410859c8e7c5d330cb6dabe183caecee5a7f59
 
 Package: com.ww-ares.zhforsnapper3
 Name: snapper3中文图标(WW-Ares)
@@ -183,3 +58,4 @@ Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/snapper3-cn-roothide_1.0.4_iphoneos-arm64e.deb
 Size: 34292
 SHA256: 2ec9dc12ab74f485de572bcf5bafbad6953089e568dd2b949f816d7a5e83a456
+
