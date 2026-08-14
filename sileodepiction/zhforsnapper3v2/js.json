@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "自用 snapper3 美化，全新绘制中文图标和颜色（版本 2）。"
+          "markdown": "自用Snapper3美化图标，全新绘制中文图标<br>\n集成Snapper3,HammerIt,BigShot,Expand所需要的图标<br>\n具体样式看截图"
         },
         {
           "class": "DepictionSeparatorView"
@@ -34,7 +34,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.4"
+          "text": "1.0.5"
         },
         {
           "class": "DepictionTableTextView",
