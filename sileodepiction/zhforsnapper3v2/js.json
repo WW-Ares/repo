@@ -1,0 +1,52 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "7A7AF9",
+  "headerImage": "https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3v2/screen-1.jpg",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 10,
+          "itemSize": "{160, 347}",
+          "screenshots": [
+            {
+              "url": "https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3v2/screen-1.jpg",
+              "accessibilityText": "效果图"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "自用 snapper3 美化，全新绘制中文图标和颜色（版本 2）。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "WW-Ares"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.4"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容",
+          "text": "iOS 15+ / roothide (rootless)"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "WW-Ares 源",
+          "action": "https://ww-ares.github.io/repo/"
+        }
+      ]
+    }
+  ]
+}
