@@ -1,6 +1,6 @@
 Package: com.hk.axon.cn.roothide
 Name: Axon 简体中文包 (roothide)
-Version: 1.7.0-1
+Version: 1.7.0-2
 Architecture: iphoneos-arm64e
 Maintainer: WW-Ares
 Author: WW-Ares
@@ -8,11 +8,12 @@ Depends: mobilesubstrate, me.nepeta.axon
 Conflicts: com.hk.axon.cn.rl
 Replaces: com.hk.axon.cn.rl
 Provides: com.hk.axon.cn
+Pre-Depends: rootless-compat(>= 0.9)
 Section: roothide汉化补丁
-Description: 适用于 RY7YY 维护的 Axon 1.7.0（roothide）的简体中文汉化包，覆盖新增角标样式、错位堆叠布局与平滑交叉淡化过渡。
-Filename: debs/axon-cn-roothide_1.7.0-1_iphoneos-arm64e.deb
-Size: 8616
-SHA256: 0d584c4e9dfd0085b8e1e5e294ce0493418b1b604b81937286d165fa1762d234
+Description: 适用于 RY7YY 维护的 Axon 1.7.0（roothide）的简体中文汉化包，Hook UILabel 汉化锁屏长按通知菜单，并覆盖设置界面中文。正式版：真 arm64e + rootless-compat 安装格式。
+Filename: debs/axon-cn-roothide_1.7.0-2_iphoneos-arm64e.deb
+Size: 9588
+SHA256: 061913d06bf48814ff4412befe6144619ae783717dbe46b6d81573cd50812c55
 
 Package: com.hk.blurrybadges.cn.roothide
 Name: BlurryBadges 简体中文包 (roothide)
@@ -41,6 +42,23 @@ Filename: debs/cocoatop-cn-roothide_0.0.1-4_iphoneos-arm64e.deb
 Size: 19384
 SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
 
+Package: me.nepeta.axon
+Name: Axon
+Depends: mobilesubstrate, firmware (>= 16.0), oldabi
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Description: Show notifications beautifully with the lock screen
+Maintainer: RY7YY
+Author: Nepeta & RY7YY
+Section: Tweaks
+icon: https://j.top4top.io/p_38647xb430.png
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Installed-Size: 1540
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.nepeta.axon_1.7.0_iphoneos-arm64e.deb
+Size: 897252
+SHA256: d8d56d08f5acc51d208cbbb049410859c8e7c5d330cb6dabe183caecee5a7f59
+
 Package: com.ww-ares.zhforsnapper3
 Name: snapper3中文图标(WW-Ares)
 Description: 自用snapper3美化,全新绘制中文图标和颜色
@@ -58,4 +76,3 @@ Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/snapper3-cn-roothide_1.0.4_iphoneos-arm64e.deb
 Size: 34292
 SHA256: 2ec9dc12ab74f485de572bcf5bafbad6953089e568dd2b949f816d7a5e83a456
-
