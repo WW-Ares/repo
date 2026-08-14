@@ -1,3 +1,17 @@
+Package: cn.llld.cocoatop
+Name: CocoaTop64 简体中文包 (roothide)
+Version: 0.0.1-4
+Architecture: iphoneos-arm64e
+Maintainer: WW-Ares
+Author: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000)
+Section: roothide汉化补丁
+Installed-Size: 240
+Description: 增加Relaxin版本的汉化适配
+Filename: debs/cocoatop-cn-roothide_0.0.1-4_iphoneos-arm64e.deb
+Size: 19384
+SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
+
 Package: com.hk.axon.cn.roothide
 Name: Axon 简体中文包 (roothide)
 Version: 1.7.0-2
@@ -28,19 +42,23 @@ Filename: debs/blurrybadges-cn-roothide_2.1.3-4_iphoneos-arm64e.deb
 Size: 5248
 SHA256: 5c26130cf9ddc991ff09ef1c616cd61ba2d052d9479b63d1a836e65d6becb442
 
-Package: cn.llld.cocoatop
-Name: CocoaTop64 简体中文包 (roothide)
-Version: 0.0.1-4
-Architecture: iphoneos-arm64e
+Package: com.ww-ares.zhforsnapper3
+Name: snapper3中文图标(WW-Ares)
+Description: 自用snapper3美化,全新绘制中文图标和颜色
 Maintainer: WW-Ares
-Author: 来了老弟
-Depends: mobilesubstrate (>= 0.9.5000)
-Section: roothide汉化补丁
-Installed-Size: 240
-Description: 增加Relaxin版本的汉化适配
-Filename: debs/cocoatop-cn-roothide_0.0.1-4_iphoneos-arm64e.deb
-Size: 19384
-SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
+Author: WW-Ares
+Section: 美化插件
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
+Conflicts: com.sini921.zhforsnapper3
+Sileodepiction: https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3/js.json
+icon: 
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/snapper3-cn-roothide_1.0.4_iphoneos-arm64e.deb
+Size: 34366
+SHA256: debe1d5eef4380ab0755d37d08d4f9b7ec63f8634e4acbc363200acc5d5e4b65
 
 Package: me.nepeta.axon
 Name: Axon
@@ -58,21 +76,3 @@ Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/me.nepeta.axon_1.7.0_iphoneos-arm64e.deb
 Size: 897252
 SHA256: d8d56d08f5acc51d208cbbb049410859c8e7c5d330cb6dabe183caecee5a7f59
-
-Package: com.ww-ares.zhforsnapper3
-Name: snapper3中文图标(WW-Ares)
-Description: 自用snapper3美化,全新绘制中文图标和颜色
-Maintainer: WW-Ares
-Author: WW-Ares
-Section: 美化插件
-Depends: mobilesubstrate, firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 1.0.4
-Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
-Conflicts: com.sini921.zhforsnapper3
-Sileodepiction: 
-icon: 
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/snapper3-cn-roothide_1.0.4_iphoneos-arm64e.deb
-Size: 34292
-SHA256: 2ec9dc12ab74f485de572bcf5bafbad6953089e568dd2b949f816d7a5e83a456
