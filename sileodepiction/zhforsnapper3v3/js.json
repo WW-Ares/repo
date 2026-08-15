@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "网友@iCleaner_Pro 提供素材，轻微修改打包制作，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图<br>\n更新信息：添加新包名，兼容更多hammerits版本；图标优化"
+          "markdown": "网友@iCleaner_Pro 提供素材，轻微修改打包制作，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图"
         },
         {
           "class": "DepictionSeparatorView"
@@ -34,7 +34,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.01"
+          "text": "1.02"
         },
         {
           "class": "DepictionTableTextView",
@@ -45,6 +45,22 @@
           "class": "DepictionTableButtonView",
           "title": "WW-Ares 源",
           "action": "https://ww-ares.github.io/repo/"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "1.02",
+          "text": "优化部分图标，适配Expand新版本，增加两个ai的新标签"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "1.01",
+          "text": "添加新包名，兼容更多hammerits版本\n图标优化"
         }
       ]
     }
