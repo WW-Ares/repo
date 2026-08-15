@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "自用Snapper3美化图标，全新绘制中文图标，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图"
+          "markdown": "自用Snapper3美化图标，全新绘制中文图标，集成Snapper3,HammerIt,BigShot,Expand,TransLux所需要的图标，具体样式看截图"
         },
         {
           "class": "DepictionSeparatorView"
@@ -34,7 +34,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.8"
+          "text": "1.0.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -54,7 +54,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.0.8**\n优化部分图标，适配Expand新版本，增加两个ai的新标签\n\n**1.0.7**\n添加新包名，兼容更多hammerits版本\n图标优化"
+          "markdown": "**1.0.9**\n适配TransLux图标\n\n**1.0.8**\n优化部分图标，适配Expand新版本，增加两个ai的新标签\n\n**1.0.7**\n添加新包名，兼容更多hammerits版本\n图标优化"
         }
       ]
     }
