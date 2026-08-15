@@ -53,14 +53,8 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionTableTextView",
-          "title": "1.0.8",
-          "text": "优化部分图标，适配Expand新版本，增加两个ai的新标签"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "1.0.7",
-          "text": "添加新包名，兼容更多hammerits版本\n图标优化"
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.0.8**\n优化部分图标，适配Expand新版本，增加两个ai的新标签\n\n**1.0.7**\n添加新包名，兼容更多hammerits版本\n图标优化"
         }
       ]
     }
