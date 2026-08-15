@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "网友@iCleaner_Pro 提供素材，轻微修改打包制作，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图"
+          "markdown": "网友@iCleaner_Pro 提供素材，轻微修改打包制作，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图<br>\n更新信息：添加新包名，兼容更多hammerits版本；图标优化"
         },
         {
           "class": "DepictionSeparatorView"
@@ -34,7 +34,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.00"
+          "text": "1.01"
         },
         {
           "class": "DepictionTableTextView",

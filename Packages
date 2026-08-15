@@ -45,56 +45,59 @@ SHA256: 5c26130cf9ddc991ff09ef1c616cd61ba2d052d9479b63d1a836e65d6becb442
 Package: com.ww-ares.zhforsnapper3
 Name: snapper3中文图标V1(WW-Ares)
 Description: 自用Snapper3美化图标，全新绘制中文图标，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图
+ 更新信息：添加新包名，兼容更多hammerits版本
 Maintainer: WW-Ares
 Author: WW-Ares
 Section: 美化插件
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 1.0.6
-Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3v2
+Version: 1.0.7
+Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.lclrc.hammerits, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3v2
 Conflicts: com.sini921.zhforsnapper3, com.ww-ares.zhforsnapper3v2
 Sileodepiction: https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3/js.json
 icon: 
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/snapper3-v1-cn-roothide_1.0.6_iphoneos-arm64e.deb
-Size: 39010
-SHA256: 8699f82ab3fd826d90682b14706b8cc3a64eb9509e46c4d65adc037f3a4bf4eb
+Filename: debs/snapper3-v1-cn-roothide_1.0.7_iphoneos-arm64e.deb
+Size: 39120
+SHA256: 2698a05ce615c1f57b2e6d6201171d4d76f386cd1c3dc663b6a4913e9b815424
 
 Package: com.ww-ares.zhforsnapper3v2
 Name: snapper3中文图标V2(WW-Ares)
 Description: 自用Snapper3美化图标，全新绘制中文图标，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图
+ 更新信息：添加新包名，兼容更多hammerits版本；图标优化
 Maintainer: WW-Ares
 Author: WW-Ares
 Section: 美化插件
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 1.0.6
-Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3
+Version: 1.0.7
+Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.lclrc.hammerits, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3
 Conflicts: com.sini921.zhforsnapper3, com.ww-ares.zhforsnapper3
 Sileodepiction: https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3v2/js.json
 icon: 
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/snapper3-v2-cn-roothide_1.0.6_iphoneos-arm64e.deb
-Size: 60892
-SHA256: 5dfe8aaf7eebd551470f43888e9d0814eb3f5eea6f9be5a4e722061a58a68c58
+Filename: debs/snapper3-v2-cn-roothide_1.0.7_iphoneos-arm64e.deb
+Size: 59892
+SHA256: e8b4d680449222554cf6f336c2cb3543284e7ebfdc20c963e948351120d59c85
 
 Package: com.ww-ares.zhforsnapper3v3
 Name: snapper3中文图标V3(WW-Ares)
 Description: 网友@iCleaner_Pro 提供素材，轻微修改打包制作，集成Snapper3,HammerIt,BigShot,Expand所需要的图标，具体样式看截图
+ 更新信息：添加新包名，兼容更多hammerits版本；图标优化
 Maintainer: WW-Ares
 Author: WW-Ares
 Section: 美化插件
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 1.00
-Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3, com.ww-ares.zhforsnapper3v2
+Version: 1.01
+Replaces: com.sini921.zhforsnapper3, com.lclrc.hammerit, com.lclrc.hammerits, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.ww-ares.zhforsnapper3, com.ww-ares.zhforsnapper3v2
 Conflicts: com.sini921.zhforsnapper3, com.ww-ares.zhforsnapper3, com.ww-ares.zhforsnapper3v2
 Sileodepiction: https://ww-ares.github.io/repo/sileodepiction/zhforsnapper3v3/js.json
 icon: 
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/snapper3-v3-cn-roothide_1.00_iphoneos-arm64e.deb
-Size: 228724
-SHA256: bde75247d7b5247436292edfd5d9a6f89b9c05ae74a20f70759e117ab7824f31
+Filename: debs/snapper3-v3-cn-roothide_1.01_iphoneos-arm64e.deb
+Size: 276642
+SHA256: 61cd5aa5fa10fe8dc2ad3a7ff0067d96cbc97e285c2e2bbdaf02a0bfb7a1516c
 
 Package: me.nepeta.axon
 Name: Axon
