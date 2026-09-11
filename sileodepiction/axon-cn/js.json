@@ -1,0 +1,38 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "7A7AF9",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "WW-Ares"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.7.2-2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容",
+          "text": "Axon 1.7.2 / roothide"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.7.2-2**\n适配RY7YY维护的1.7.2版本"
+        }
+      ]
+    }
+  ]
+}

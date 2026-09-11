@@ -14,7 +14,7 @@ SHA256: be6d26e77903b2cc3bc126fdc952bd80ed5ba0289422d63dc471bc4579bcd1be
 
 Package: com.hk.axon.cn.roothide
 Name: Axon 简体中文包 (roothide)
-Version: 1.7.0-2
+Version: 1.7.2-2
 Architecture: iphoneos-arm64e
 Maintainer: WW-Ares
 Author: WW-Ares
@@ -24,10 +24,11 @@ Replaces: com.hk.axon.cn.rl
 Provides: com.hk.axon.cn
 Pre-Depends: rootless-compat(>= 0.9)
 Section: roothide汉化补丁
-Description: 适用于 RY7YY 维护的 Axon 1.7.0（roothide）的简体中文汉化包，Hook UILabel 汉化锁屏长按通知菜单，并覆盖设置界面中文。正式版：真 arm64e + rootless-compat 安装格式。
-Filename: debs/axon-cn-roothide_1.7.0-2_iphoneos-arm64e.deb
-Size: 9588
-SHA256: 061913d06bf48814ff4412befe6144619ae783717dbe46b6d81573cd50812c55
+Description: 适用于RY7YY维护的Axon1.7.2(roothide)的简体中文汉化包，HookUILabel汉化锁屏长按通知菜单，并覆盖设置界面中文，新增触觉强度、动态与性能、锁屏专注、最大可见应用数等选项的汉化。
+Sileodepiction: https://ww-ares.github.io/repo/sileodepiction/axon-cn/js.json
+Filename: debs/axon-cn-roothide_1.7.2-2_iphoneos-arm64e.deb
+Size: 9924
+SHA256: eb06978b60275703d72175e470b6467cd14e7d5ae2007fe2ec96b2abf916dbb0
 
 Package: com.hk.blurrybadges.cn.roothide
 Name: BlurryBadges 简体中文包 (roothide)
