@@ -8,6 +8,13 @@
       "tabname": "详情",
       "views": [
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "适用于RY7YY维护的Axon1.7.2(roothide)的简体中文汉化包，HookUILabel汉化锁屏长按通知菜单，并覆盖设置界面中文，新增触觉强度、动态与性能、锁屏专注、最大可见应用数等选项的汉化。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
           "class": "DepictionTableTextView",
           "title": "作者",
           "text": "WW-Ares"
